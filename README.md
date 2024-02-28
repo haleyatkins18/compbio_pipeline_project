@@ -22,10 +22,10 @@ This code is meant for and test in Python3.8
 ###  Configure Environment 
 
 - Command to clone this repo to your machine 
-	git clone https://github.com/haleyatkins18/compbio_pipeline_project.git
+	`git clone https://github.com/haleyatkins18/compbio_pipeline_project.git`
 
 - Then cd into pipeline_project directory 
-cd pipeline_project
+	`cd pipeline_project`
 	
 ### Running the pipeline
 
