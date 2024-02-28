@@ -22,11 +22,11 @@ This code is meant for and test in Python3.8
 ###  Configure Environment 
 
 - Command to clone this repo to your machine 
-git clone https://github.com/haleyatkins18/compbio_pipeline_project.git
+	git clone https://github.com/haleyatkins18/compbio_pipeline_project.git
 
 - Then cd into pipeline_project directory 
 cd pipeline_project
-
+	
 ### Running the pipeline
 
 - There are two sets of data that this pipeline can run: sample set of trimmed fastq files (faster) and the full dataset of untrimmed fastq files. The results of either dataset ouput to the "PipelineProject_HA.
