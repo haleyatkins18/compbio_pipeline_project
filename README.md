@@ -38,6 +38,15 @@ python loggy.py --sample
 ### Output files 
 - All files and results are found in the PipelineProject_HA directory
 - blast
-	- Blast output results of blasting the longest contig from the SPAdes assembly against the Betaherpesvirinae subfamily
-- 
- 
+--Blast output results of blasting the longest contig from the SPAdes assembly against the Betaherpesvirinae subfamily
+
+- bowtie_index 
+--indexes created by bowtie
+
+- bowtie2_output 
+--output from bowtie2
+
+- PipelineProejct.log
+
+-spades
+--assembly files 
