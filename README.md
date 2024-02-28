@@ -6,7 +6,5 @@ Human herpesvirus 5 is also known as Human cytomegalovirus and is typically abbr
 
 This code is meant for and test in Python3.8
 
-###Before you begin
 
-####Software
-
+## Before you start
