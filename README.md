@@ -40,6 +40,9 @@ This code is meant for and tested in Python3.8
 
 ### Output files 
 - All files and results are found in the PipelineProject_HA directory
+
+- Each of the commands generate more files, but this only includes the files that are pertinent to running the pipeline. More information on the other files can be found at the software links.
+ 
 - blast
 --Blast output results of blasting the longest contig from the SPAdes assembly against the Betaherpesvirinae subfamily
 
@@ -52,4 +55,4 @@ This code is meant for and tested in Python3.8
 - PipelineProejct.log
 
 -spades
---assembly files 
+-- contigs.fasta contains the assembled contigs  
