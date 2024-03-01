@@ -34,6 +34,8 @@ This code is meant for and tested in Python 3.8
 
 - Now that this github is cloned and your environment is configured correctly, you can actually run this pipeline. 
 - There are two sets of data that this pipeline can run: sample set of trimmed fastq files and the full dataset of untrimmed fastq files. The results of either dataset ouput to the "PipelineProject_HA.
+- If you want to run both datasets, run in different directories so that the log file doesn't get written over. Or, if you don't need to keep the information and are just looking to check for functionality, you can remove the PipelineProject_HA directory using ```rm -r PipelineProject_HA``` and then run the pipeline on the other dataset.
+  
 - To run the full dataset set run this command from your command line 
 	- ```python gen_assemble.py```
 - To run the sample dataset run this commmand from your command line
