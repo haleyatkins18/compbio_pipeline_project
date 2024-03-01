@@ -39,7 +39,10 @@ This code is meant for and tested in Python 3.8
 - To run the sample dataset run this commmand from your command line
 	- ```python loggy.py --sample```
 - The sample dataset was created using the comand:
-  	- ``` head -n 40000 data.fastq > sampledata.fastq``` and then creating the new, sample fastq files. This is usedul beacuase it takes less time to run these trimmed samples rather than the full dataset. 
+  	- ``` head -n 40000 data.fastq > sampledata.fastq``` and then creating the new, sample fastq files. This is usedul beacuase it takes less time to run these trimmed samples rather than the full dataset.
+
+- Looking at the log file
+  	- ```cat PipelineProject_HA.log```
 
 ### Output files 
 - All files and results are found in the PipelineProject_HA directory
@@ -50,12 +53,13 @@ This code is meant for and tested in Python 3.8
 	-  Blast output results of blasting the longest contig from the SPAdes assembly against the Betaherpesvirinae subfamily
 
 - bowtie_index 
-	- indexes created by bowtie
-
+	- Index.fasta contains all the sequences you want to index
+   	- *.bt2 files contain the genome indeces, epresenting different components of the index
 - bowtie2_output 
-	- output from bowtie2
-
-- PipelineProejct.log
+	- Mapped fastq files for reach paired read
+   	- Sam files are the human-readable text files that contain alignment information for each read
+ 
+- PipelineProject.log
   	- Contains all of the desired output
   	- Number of reads in each transcriptome before and after the Bowtie2 mapping
   	-  SPAdes command used
@@ -65,4 +69,4 @@ This code is meant for and tested in Python 3.8
 	- Percent identity, Alignment length, Start of alignment in query, End of alignment in query, Start of alignment in subject, End of alignment in subject, Bit score, E-value, and Subject Title of the top ten BLAST hits
 
 - spades
-	- contigs.fasta contains the assembled contigs  
+	- Contigs.fasta contains the assembled contigs  
