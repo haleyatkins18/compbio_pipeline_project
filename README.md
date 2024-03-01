@@ -28,8 +28,8 @@ This code is meant for and tested in Python 3.8
 	-  ```git clone https://github.com/haleyatkins18/compbio_pipeline_project.git```
 
 - Then cd into pipeline_project directory 
-	- ```cd pipeline_project```
-	
+	- ```cd compbio_pipeline_project```
+- check if all the correct files are present 	
 ### Running the pipeline
 
 - Now that this github is cloned and your environment is configured correctly, you can actually run this pipeline. 
